@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xqPecckd08T4yiRiV3NY3HWxC7FLWgUToKlm5/grtYV527pxLD+E2stDMLwf+p6jCdOJJqGPUys1U3Qx7shUOw==",
+  "success": true,
+  "projectFilePath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanch\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.1\\microsoft.netcore.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\sanch\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.1\\microsoft.windowsdesktop.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\sanch\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.1\\microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

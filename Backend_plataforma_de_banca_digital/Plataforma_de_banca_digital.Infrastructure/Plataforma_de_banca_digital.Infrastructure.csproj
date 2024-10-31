@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Plataforma_de_banca_digital.Application\Plataforma_de_banca_digital.Application.csproj" />
+    <ProjectReference Include="..\Plataforma_de_banca_digital.Dominio\Plataforma_de_banca_digital.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Plataforma_banca_digital.Web_API.props" />
+</Project>

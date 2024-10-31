@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Plataforma_de_banca_digital.Application/1.0.0": {
+        "dependencies": {
+          "Plataforma_de_banca_digital.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Plataforma_de_banca_digital.Application.dll": {}
+        }
+      },
+      "Plataforma_de_banca_digital.Dominio/1.0.0": {
+        "runtime": {
+          "Plataforma_de_banca_digital.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Plataforma_de_banca_digital.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Plataforma_de_banca_digital.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
