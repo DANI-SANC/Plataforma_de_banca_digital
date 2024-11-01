@@ -1,0 +1,62 @@
+[
+    {
+        "NombreSucursal": "Sucursal Centro",
+        "Direccion": "Calle del Comercio 404",
+        "Telefono": 99991234,
+        "HorarioAtencion": "09:30 - 18:30"
+    },
+    {
+        "NombreSucursal": "Sucursal Comercial",
+        "Direccion": "Calle Secundaria 456",
+        "Telefono": 98885678,
+        "HorarioAtencion": "10:00 - 15:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Norte",
+        "Direccion": "Boulevard de la Ciudad 789",
+        "Telefono": 97779012,
+        "HorarioAtencion": "10:00 - 19:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Este",
+        "Direccion": "Calle de la Paz 606",
+        "Telefono": 96663456,
+        "HorarioAtencion": "08:30 - 16:30"
+    },
+    {
+        "NombreSucursal": "Sucursal Sur",
+        "Direccion": "Av. Principal 123",
+        "Telefono": 95557890,
+        "HorarioAtencion": "08:00 - 15:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Plaza",
+        "Direccion": "Paseo de las Flores 101",
+        "Telefono": 94442345,
+        "HorarioAtencion": "09:30 - 18:30"
+    },
+    {
+        "NombreSucursal": "Sucursal Atlántida",
+        "Direccion": "Calle Principal 321",
+        "Telefono": 93336789,
+        "HorarioAtencion": "08:00 - 17:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Litoral",
+        "Direccion": "Avenida Mar 456",
+        "Telefono": 92220123,
+        "HorarioAtencion": "08:00 - 20:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Valle",
+        "Direccion": "Calle de la Montaña 654",
+        "Telefono": 91114567,
+        "HorarioAtencion": "10:00 - 15:00"
+    },
+    {
+        "NombreSucursal": "Sucursal Metro",
+        "Direccion": "Calle del Metro 101",
+        "Telefono": 90008901,
+        "HorarioAtencion": "09:00 - 18:00"
+    }
+]

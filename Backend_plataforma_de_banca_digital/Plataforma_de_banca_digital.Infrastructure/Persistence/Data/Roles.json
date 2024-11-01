@@ -1,0 +1,23 @@
+﻿[
+
+    {
+        "NombreRol": "Admin",
+        "Descripcion": "Administrador del sistema"
+    },
+    {
+        "NombreRol": "Empleado A",
+        "Descripcion": "Empleado con cierto accesos"
+    },
+    {
+        "NombreRol": "Empleado B",
+        "Descripcion": "Empleado con cierto accesos"
+    },
+    {
+        "NombreRol": "Empleado C",
+        "Descripcion": "Empleado con cierto accesos"
+    },
+    {
+        "NombreRol": "Cliente",
+        "Descripcion": "Cliente del banco"
+    }
+]

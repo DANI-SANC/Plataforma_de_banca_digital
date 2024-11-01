@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Plataforma_de_banca_digital.Application\Plataforma_de_banca_digital.Application.csproj" />
+    <ProjectReference Include="..\Plataforma_de_banca_digital.Infrastructure\Plataforma_de_banca_digital.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

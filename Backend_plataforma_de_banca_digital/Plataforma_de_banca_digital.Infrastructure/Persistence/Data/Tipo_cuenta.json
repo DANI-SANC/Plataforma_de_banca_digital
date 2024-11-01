@@ -1,0 +1,10 @@
+[
+    {
+        "NombreCuenta": "Ahorro",
+        "Descripcion": "Cuenta de ahorro para personas fisicas"
+    },
+    {
+        "NombreCuenta": "Ahorro",
+        "Descripcion": "Cuenta de ahorro para personas fisicas y juridicas"
+    }
+]

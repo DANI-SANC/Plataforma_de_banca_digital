@@ -30,6 +30,9 @@
             "projectReferences": {
               "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
                 "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
+              },
+              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
+                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj"
               }
             }
           }
@@ -213,6 +216,117 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
+        "projectName": "Plataforma_de_banca_digital.Infrastructure",
+        "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
+        "outputPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
+                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
+              },
+              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
+                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
