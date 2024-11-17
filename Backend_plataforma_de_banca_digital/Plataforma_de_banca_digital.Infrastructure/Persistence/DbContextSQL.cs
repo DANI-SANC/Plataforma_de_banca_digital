@@ -1,17 +1,22 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿
+// Clase DbContextSQL: Configuración de la base de datos y mapeo de entidades para la aplicación de plataforma de banca digital.
+// Hereda de DbContext para interactuar con la base de datos usando Entity Framework Core.
+
+
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Plataforma_de_banca_digital.Application;
+using Plataforma_de_banca_digital.Dominio.Entidades;
 using System;
 
 namespace Plataforma_de_banca_digital.Infrastructure.Persistence
 {
-    public class DbContextSQL : DbContext
+    public class DbContextSQL : DbContext    // Definición de la clase DbContextSQL que extiende DbContext, el cual gestiona la conexión y mapeo con la base de datos.
     {
-        public DbContextSQL(DbContextOptions<DbContextSQL> options) : base(options)
+        public DbContextSQL(DbContextOptions<DbContextSQL> options) : base(options) // Constructor principal que recibe las opciones de configuración para DbContext.
         {
         }
         /*
-        // Constructor con cadena de conexión fija
+        // Constructor con cadena de conexión fija para hacer migraciones amtes de el update database automatico
         public DbContextSQL() : base(new DbContextOptionsBuilder<DbContextSQL>()
             .UseSqlServer("Server=DESKTOP-I4C5U4P\\SQLEXPRESS;Database=LocalDatabaseBank;Trusted_Connection=True;TrustServerCertificate=True")
             .Options)

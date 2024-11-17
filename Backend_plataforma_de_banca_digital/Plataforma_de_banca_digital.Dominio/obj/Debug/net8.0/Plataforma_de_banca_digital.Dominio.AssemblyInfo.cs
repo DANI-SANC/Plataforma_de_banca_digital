@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Plataforma_de_banca_digital.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d80ca39a2740fe414bd1d327fe4d38d83ac8d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea4a195d4b7b13a5388b1f3f55f35a3c2f58b664")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plataforma_de_banca_digital.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plataforma_de_banca_digital.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

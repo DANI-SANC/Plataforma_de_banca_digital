@@ -5,17 +5,17 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5D452178-641A-4481-B96C-31919DF7434A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma_de_banca_digital.Dominio", "Plataforma_de_banca_digital.Dominio\Plataforma_de_banca_digital.Dominio.csproj", "{E7A3BADB-2264-4A5F-9DBB-0755BD19AC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataforma_de_banca_digital.Dominio", "Plataforma_de_banca_digital.Dominio\Plataforma_de_banca_digital.Dominio.csproj", "{E7A3BADB-2264-4A5F-9DBB-0755BD19AC76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma_de_banca_digital.Application", "Plataforma_de_banca_digital.Application\Plataforma_de_banca_digital.Application.csproj", "{8F127540-4C73-48D2-BDEB-106E04417CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataforma_de_banca_digital.Application", "Plataforma_de_banca_digital.Application\Plataforma_de_banca_digital.Application.csproj", "{8F127540-4C73-48D2-BDEB-106E04417CEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B77C0285-27D8-4939-A704-F789A326E51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma_de_banca_digital.Infrastructure", "Plataforma_de_banca_digital.Infrastructure\Plataforma_de_banca_digital.Infrastructure.csproj", "{FCC95AF4-F19B-4617-A522-7BD16BA8A227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataforma_de_banca_digital.Infrastructure", "Plataforma_de_banca_digital.Infrastructure\Plataforma_de_banca_digital.Infrastructure.csproj", "{FCC95AF4-F19B-4617-A522-7BD16BA8A227}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E3E4975A-EC08-4E9E-A8FA-F17FCB499EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plataforma_banca_digital.Web_API", "Plataforma_banca_digital.Web_API\Plataforma_banca_digital.Web_API.csproj", "{A50916CF-DF21-4DA0-BD1C-D13F94562428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataforma_banca_digital.Web_API", "Plataforma_banca_digital.Web_API\Plataforma_banca_digital.Web_API.csproj", "{A50916CF-DF21-4DA0-BD1C-D13F94562428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

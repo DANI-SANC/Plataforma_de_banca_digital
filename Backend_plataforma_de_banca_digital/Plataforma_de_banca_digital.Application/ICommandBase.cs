@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plataforma_de_banca_digital.Application
 {
-    public class EstadoPrestamo : BaseEntity
+    public interface ICommandBase
     {
-        public string? Nombre {  get; set; }
-
-        public string? Descripcion { get; set; }
     }
 }

@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.infrastructure\\persistence\\data\\tipo_cuenta.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|solutionrelative:plataforma_de_banca_digital.infrastructure\\persistence\\data\\tipo_cuenta.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.application\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|solutionrelative:plataforma_de_banca_digital.application\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.application\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|solutionrelative:plataforma_de_banca_digital.application\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.application\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|solutionrelative:plataforma_de_banca_digital.application\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.infrastructure\\persistence\\dbcontextsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|solutionrelative:plataforma_de_banca_digital.infrastructure\\persistence\\dbcontextsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.infrastructure\\persistence\\dbcontextsqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|solutionrelative:plataforma_de_banca_digital.infrastructure\\persistence\\dbcontextsqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.infrastructure\\persistence\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCC95AF4-F19B-4617-A522-7BD16BA8A227}|Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj|solutionrelative:plataforma_de_banca_digital.infrastructure\\persistence\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_banca_digital.web_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|solutionrelative:plataforma_banca_digital.web_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_banca_digital.web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|solutionrelative:plataforma_banca_digital.web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_banca_digital.web_api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|solutionrelative:plataforma_banca_digital.web_api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tipo_cuenta.json",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\Data\\Tipo_cuenta.json",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\Data\\Tipo_cuenta.json",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\Data\\Tipo_cuenta.json",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\Data\\Tipo_cuenta.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T07:46:15.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Cliente.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Application\\Cliente.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Cliente.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Application\\Cliente.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Title": "CargoController.cs",
+              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
+              "RelativeDocumentMoniker": "Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
+              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
+              "RelativeToolTip": "Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:43:05.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoCuenta.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\TipoCuenta.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Application\\TipoCuenta.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\TipoCuenta.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Application\\TipoCuenta.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:43:01.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Cuenta.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Application\\Cuenta.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Cuenta.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Application\\Cuenta.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:42:35.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\appsettings.json",
-              "RelativeDocumentMoniker": "Plataforma_banca_digital.Web_API\\appsettings.json",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\appsettings.json",
-              "RelativeToolTip": "Plataforma_banca_digital.Web_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T06:16:48.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependecyInjection.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DependecyInjection.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DependecyInjection.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DependecyInjection.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DependecyInjection.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T06:16:04.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbContextSQL.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQL.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQL.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQL.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQL.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAcwBAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T06:05:40.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DbContextSQLData.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQLData.cs",
-              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQLData.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQLData.cs",
-              "RelativeToolTip": "Plataforma_de_banca_digital.Infrastructure\\Persistence\\DbContextSQLData.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwDkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T06:00:52.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Program.cs",
-              "RelativeDocumentMoniker": "Plataforma_banca_digital.Web_API\\Program.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Program.cs",
-              "RelativeToolTip": "Plataforma_banca_digital.Web_API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T05:45:34.391Z",
+              "WhenOpened": "2024-11-15T06:52:25.738Z",
               "EditorCaption": ""
             }
           ]

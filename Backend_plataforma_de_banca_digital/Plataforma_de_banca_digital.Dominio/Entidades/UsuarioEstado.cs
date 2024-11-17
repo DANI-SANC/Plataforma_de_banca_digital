@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Plataforma_de_banca_digital.Application
+namespace Plataforma_de_banca_digital.Dominio.Entidades
 {
     public enum UsuarioEstado
     {

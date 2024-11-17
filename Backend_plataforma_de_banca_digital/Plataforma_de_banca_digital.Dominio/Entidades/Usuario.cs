@@ -6,7 +6,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Plataforma_de_banca_digital.Application
+namespace Plataforma_de_banca_digital.Dominio.Entidades
 {
     public class Usuario : BaseEntity
     {
