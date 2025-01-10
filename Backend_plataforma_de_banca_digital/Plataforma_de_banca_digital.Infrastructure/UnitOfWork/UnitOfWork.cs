@@ -1,5 +1,9 @@
-﻿using Plataforma_de_banca_digital.Dominio.Interfaces.Cargos;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Plataforma_de_banca_digital.Dominio.Interfaces.Cargos;
+using Plataforma_de_banca_digital.Dominio.Interfaces.Empleados;
 using Plataforma_de_banca_digital.Dominio.Interfaces.IUnitOfWork;
+using Plataforma_de_banca_digital.Dominio.Interfaces.Roles;
+using Plataforma_de_banca_digital.Dominio.Interfaces.Usuarios;
 using Plataforma_de_banca_digital.Infrastructure.Persistence;
 using Plataforma_de_banca_digital.Infrastructure.Respositories;
 using System;
@@ -19,11 +23,19 @@ namespace Plataforma_de_banca_digital.Infrastructure.UnitOfWork
         {
             _context = context;
             Cargos = new CargoRespository(_context);
+            Roles = new RolRepository(_context);
+            Empleados =new EmpleadoRespository(_context);
+            Usuarios = new UsuarioRespository(_context);
+           
         }
 
         public ICargoRespository? Cargos { get; }
 
-        
+        public IRolRespository? Roles { get; }
+
+        public IEmpleadoRespository? Empleados { get; }
+
+        public IUsuariosRepository? Usuarios { get; }
 
         public async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
         {

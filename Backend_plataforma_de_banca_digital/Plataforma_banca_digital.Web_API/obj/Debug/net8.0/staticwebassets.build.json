@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "aGQFsjh3VEwTKQ+ybxGRmZAWZh22ysGzRxqUp/XbDrQ=",
+  "Hash": "aAgAtON5dssZ5IPwVSPZS5PnTTBs+yxiEbzrf9PRJLo=",
   "Source": "Plataforma_banca_digital.Web_API",
   "BasePath": "_content/Plataforma_banca_digital.Web_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

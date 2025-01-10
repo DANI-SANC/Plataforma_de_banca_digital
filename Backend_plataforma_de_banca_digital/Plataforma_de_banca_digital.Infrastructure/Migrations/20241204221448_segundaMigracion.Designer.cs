@@ -12,8 +12,8 @@ using Plataforma_de_banca_digital.Infrastructure.Persistence;
 namespace Plataforma_de_banca_digital.Infrastructure.Migrations
 {
     [DbContext(typeof(DbContextSQL))]
-    [Migration("20241101071804_MigracionInicial")]
-    partial class MigracionInicial
+    [Migration("20241204221448_segundaMigracion")]
+    partial class segundaMigracion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cargo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cargo", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -54,7 +54,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Cargos");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cliente", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cliente", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -95,16 +95,13 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Clientes");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cuenta", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cuenta", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("ClienteId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("CuentaId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Estado")
@@ -138,14 +135,12 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
 
                     b.HasIndex("ClienteId");
 
-                    b.HasIndex("CuentaId");
-
                     b.HasIndex("TipoDeCuentaId");
 
                     b.ToTable("Cuentas");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Empleado", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Empleado", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -190,7 +185,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Empleados");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.EstadoPrestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.EstadoPrestamo", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -219,7 +214,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("EstadoPrestamo");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Notificacion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Notificacion", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -253,7 +248,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Notificaciones");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.PagoPrestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.PagoPrestamo", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -293,7 +288,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("PagoPrestamos");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Prestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Prestamo", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -341,7 +336,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Prestamos");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Rol", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Rol", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -370,7 +365,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Sucursal", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Sucursal", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -405,7 +400,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Sucursales");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.TipoCuenta", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.TipoCuenta", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -434,7 +429,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("TipoCuentas");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.TipoTransaccion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.TipoTransaccion", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -460,7 +455,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("TipoTransacciones");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Transaccion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Transaccion", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
@@ -505,13 +500,10 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Transacciones");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Usuario", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Usuario", b =>
                 {
                     b.Property<Guid?>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("ClienteId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ContrasenaHash")
@@ -552,10 +544,6 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClienteId")
-                        .IsUnique()
-                        .HasFilter("[ClienteId] IS NOT NULL");
-
                     b.HasIndex("EmpleadoId")
                         .IsUnique()
                         .HasFilter("[EmpleadoId] IS NOT NULL");
@@ -565,18 +553,14 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cuenta", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cuenta", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cliente", "Cliente")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Cliente", "Cliente")
                         .WithMany("Cuentas")
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cuenta", null)
-                        .WithMany("Cuentas")
-                        .HasForeignKey("CuentaId");
-
-                    b.HasOne("Plataforma_de_banca_digital.Application.TipoCuenta", "TipoCuenta")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.TipoCuenta", "TipoCuenta")
                         .WithMany("Cuentas")
                         .HasForeignKey("TipoDeCuentaId")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -586,14 +570,14 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("TipoCuenta");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Empleado", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Empleado", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cargo", "Cargo")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Cargo", "Cargo")
                         .WithMany("Empleados")
                         .HasForeignKey("CargoId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Plataforma_de_banca_digital.Application.Sucursal", "Sucursal")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Sucursal", "Sucursal")
                         .WithMany("Empleados")
                         .HasForeignKey("SucursalId")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -603,9 +587,9 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("Sucursal");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Notificacion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Notificacion", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cliente", "Cliente")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Cliente", "Cliente")
                         .WithMany("Notificaciones")
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -613,9 +597,9 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("Cliente");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.PagoPrestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.PagoPrestamo", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Prestamo", "Prestamo")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Prestamo", "Prestamo")
                         .WithMany("PagoPrestamos")
                         .HasForeignKey("PrestamoId")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -623,14 +607,14 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("Prestamo");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Prestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Prestamo", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cliente", "Cliente")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Cliente", "Cliente")
                         .WithMany("Prestamos")
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Plataforma_de_banca_digital.Application.EstadoPrestamo", "EstadoPrestamo")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.EstadoPrestamo", "EstadoPrestamo")
                         .WithMany()
                         .HasForeignKey("EstadoPrestamoId");
 
@@ -639,15 +623,15 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("EstadoPrestamo");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Transaccion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Transaccion", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cuenta", "Cuenta")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Cuenta", "Cuenta")
                         .WithMany()
                         .HasForeignKey("CuentaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Plataforma_de_banca_digital.Application.TipoTransaccion", "TipoTransaccion")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.TipoTransaccion", "TipoTransaccion")
                         .WithMany("Transacciones")
                         .HasForeignKey("TipoDeTransaccionId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -658,77 +642,63 @@ namespace Plataforma_de_banca_digital.Infrastructure.Migrations
                     b.Navigation("TipoTransaccion");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Usuario", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Usuario", b =>
                 {
-                    b.HasOne("Plataforma_de_banca_digital.Application.Cliente", "Cliente")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Empleado", "Empleado")
                         .WithOne("Usuario")
-                        .HasForeignKey("Plataforma_de_banca_digital.Application.Usuario", "ClienteId")
+                        .HasForeignKey("Plataforma_de_banca_digital.Dominio.Entidades.Usuario", "EmpleadoId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Plataforma_de_banca_digital.Application.Empleado", "Empleado")
-                        .WithOne("Usuario")
-                        .HasForeignKey("Plataforma_de_banca_digital.Application.Usuario", "EmpleadoId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("Plataforma_de_banca_digital.Application.Rol", "Rol")
+                    b.HasOne("Plataforma_de_banca_digital.Dominio.Entidades.Rol", "Rol")
                         .WithMany("Usuarios")
                         .HasForeignKey("RolId")
                         .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("Cliente");
 
                     b.Navigation("Empleado");
 
                     b.Navigation("Rol");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cargo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cargo", b =>
                 {
                     b.Navigation("Empleados");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cliente", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Cliente", b =>
                 {
                     b.Navigation("Cuentas");
 
                     b.Navigation("Notificaciones");
 
                     b.Navigation("Prestamos");
-
-                    b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Cuenta", b =>
-                {
-                    b.Navigation("Cuentas");
-                });
-
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Empleado", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Empleado", b =>
                 {
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Prestamo", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Prestamo", b =>
                 {
                     b.Navigation("PagoPrestamos");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Rol", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Rol", b =>
                 {
                     b.Navigation("Usuarios");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.Sucursal", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.Sucursal", b =>
                 {
                     b.Navigation("Empleados");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.TipoCuenta", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.TipoCuenta", b =>
                 {
                     b.Navigation("Cuentas");
                 });
 
-            modelBuilder.Entity("Plataforma_de_banca_digital.Application.TipoTransaccion", b =>
+            modelBuilder.Entity("Plataforma_de_banca_digital.Dominio.Entidades.TipoTransaccion", b =>
                 {
                     b.Navigation("Transacciones");
                 });

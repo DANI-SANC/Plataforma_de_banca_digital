@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj": {}
+    "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj": {}
   },
   "projects": {
-    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj": {
+    "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+        "projectUniqueName": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
         "projectName": "Plataforma_banca_digital.Web_API",
-        "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\obj\\",
+        "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+        "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
+        "outputPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
-                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
+              "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
+                "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
               },
-              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
-                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj"
+              "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
+                "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj"
               }
             }
           }
@@ -45,8 +49,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -76,21 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
+    "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj",
+        "projectUniqueName": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj",
         "projectName": "Plataforma_de_banca_digital.Application",
-        "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\obj\\",
+        "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj",
+        "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
+        "outputPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
-                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj"
+              "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
+                "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj"
               }
             }
           }
@@ -118,8 +127,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -132,6 +142,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
@@ -162,21 +176,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
+    "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj",
+        "projectUniqueName": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj",
         "projectName": "Plataforma_de_banca_digital.Dominio",
-        "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\obj\\",
+        "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj",
+        "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
+        "outputPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,8 +218,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -222,21 +241,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
+    "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
         "projectName": "Plataforma_de_banca_digital.Infrastructure",
-        "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sanch\\.nuget\\packages\\",
-        "outputPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\obj\\",
+        "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\Plataforma_de_banca_digital.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
+        "outputPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sanch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,11 +273,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
-                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
+              "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj": {
+                "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj"
               },
-              "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
-                "projectPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj"
+              "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj": {
+                "projectPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Dominio\\Plataforma_de_banca_digital.Dominio.csproj"
               }
             }
           }
@@ -267,8 +290,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -319,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

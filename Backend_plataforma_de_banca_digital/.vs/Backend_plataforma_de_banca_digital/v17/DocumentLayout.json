@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\",
+  "WorkspaceRootPath": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|n:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_banca_digital.web_api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|solutionrelative:plataforma_banca_digital.web_api\\controllers\\cargocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|d:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.application\\usuarioscommands\\createusuariocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|solutionrelative:plataforma_de_banca_digital.application\\usuarioscommands\\createusuariocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|d:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_banca_digital.web_api\\plataforma_banca_digital.web_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A50916CF-DF21-4DA0-BD1C-D13F94562428}|Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj|solutionrelative:plataforma_banca_digital.web_api\\plataforma_banca_digital.web_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|d:\\plataforma_de_banca_digital\\backend_plataforma_de_banca_digital\\plataforma_de_banca_digital.application\\empleadoscommands\\createempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F127540-4C73-48D2-BDEB-106E04417CEE}|Plataforma_de_banca_digital.Application\\Plataforma_de_banca_digital.Application.csproj|solutionrelative:plataforma_de_banca_digital.application\\empleadoscommands\\createempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CargoController.cs",
-              "DocumentMoniker": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
-              "RelativeDocumentMoniker": "Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
-              "ToolTip": "N:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
-              "RelativeToolTip": "Plataforma_banca_digital.Web_API\\Controllers\\CargoController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:52:25.738Z",
+              "DocumentIndex": 1,
+              "Title": "Plataforma_banca_digital.Web_API",
+              "DocumentMoniker": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+              "RelativeDocumentMoniker": "Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+              "ToolTip": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+              "RelativeToolTip": "Plataforma_banca_digital.Web_API\\Plataforma_banca_digital.Web_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T05:33:58.617Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateUsuarioCommandHandler.cs",
+              "DocumentMoniker": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\UsuariosCommands\\CreateUsuarioCommandHandler.cs",
+              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Application\\UsuariosCommands\\CreateUsuarioCommandHandler.cs",
+              "ToolTip": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\UsuariosCommands\\CreateUsuarioCommandHandler.cs",
+              "RelativeToolTip": "Plataforma_de_banca_digital.Application\\UsuariosCommands\\CreateUsuarioCommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:15:08.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateEmpleadoCommandHandler.cs",
+              "DocumentMoniker": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\EmpleadosCommands\\CreateEmpleadoCommandHandler.cs",
+              "RelativeDocumentMoniker": "Plataforma_de_banca_digital.Application\\EmpleadosCommands\\CreateEmpleadoCommandHandler.cs",
+              "ToolTip": "D:\\Plataforma_de_banca_digital\\Backend_plataforma_de_banca_digital\\Plataforma_de_banca_digital.Application\\EmpleadosCommands\\CreateEmpleadoCommandHandler.cs",
+              "RelativeToolTip": "Plataforma_de_banca_digital.Application\\EmpleadosCommands\\CreateEmpleadoCommandHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wCgAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:13:53.601Z"
             }
           ]
         }

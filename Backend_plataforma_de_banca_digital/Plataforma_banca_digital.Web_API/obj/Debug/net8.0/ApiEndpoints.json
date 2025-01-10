@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Plataforma_banca_digital.Web_API.Controllers.CargoController",
+    "Method": "CreateCargo",
+    "RelativePath": "api/cargo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Plataforma_de_banca_digital.Application.CargosCommands.CreateCargoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Plataforma_banca_digital.Web_API.Controllers.RolController",
+    "Method": "CreateRol",
+    "RelativePath": "api/rol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Plataforma_de_banca_digital.Application.RolCommands.CreateRolRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

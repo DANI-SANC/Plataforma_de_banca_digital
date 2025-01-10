@@ -27,7 +27,7 @@ namespace Plataforma_de_banca_digital.Dominio.Entidades
 
         public ICollection<Prestamo> Prestamos { get; set; } = new List<Prestamo>();
 
-        public Usuario? Usuario { get; set; }
+
 
         
 

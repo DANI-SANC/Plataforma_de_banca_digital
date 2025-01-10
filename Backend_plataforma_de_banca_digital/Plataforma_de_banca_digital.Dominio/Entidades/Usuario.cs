@@ -12,8 +12,7 @@ namespace Plataforma_de_banca_digital.Dominio.Entidades
     {
         public Guid? EmpleadoId { get; set; } // Relación opcional con Empleado
         public Empleado? Empleado { get; set; }
-        public Guid? ClienteId { get; set; } // Relación opcional con Cliente
-        public Cliente? Cliente { get; set; }
+     
         public Guid? RolId { get; set; }
         public Rol? Rol { get; set; }
         public string? NombreUsuario { get; set; }

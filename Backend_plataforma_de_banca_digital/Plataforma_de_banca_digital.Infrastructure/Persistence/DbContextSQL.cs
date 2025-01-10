@@ -104,11 +104,7 @@ namespace Plataforma_de_banca_digital.Infrastructure.Persistence
                 .HasForeignKey<Usuario>(u => u.EmpleadoId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Usuario>()
-                .HasOne(u => u.Cliente)
-                .WithOne(u => u.Usuario)
-                .HasForeignKey<Usuario>(u => u.ClienteId)
-                .OnDelete(DeleteBehavior.Restrict);
+ 
 
             // Configuración de tipos de columna para propiedades decimal
             modelBuilder.Entity<Cuenta>()
